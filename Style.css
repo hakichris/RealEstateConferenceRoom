@@ -52,7 +52,8 @@
   font-size: 50px;
   font-weight: bold;
   line-height: 50px;
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     to left,
     red,
     rgba(239, 67, 96, 0.863),
@@ -135,7 +136,6 @@ span {
 }
 
 .Programname {
-  color: white;
   margin-left: 10px;
   font-size: 20px;
   color: #ec5242;
