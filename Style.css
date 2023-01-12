@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 .navbar {
   position: relative;
   display: flex;
@@ -51,7 +52,6 @@
   font-size: 50px;
   font-weight: bold;
   line-height: 50px;
-
   background: linear-gradient(
     to left,
     red,
@@ -161,7 +161,6 @@ span {
   background-color: #ec5242;
   height: 60px;
   width: 70%;
-  margin-left: 25%;
   color: white;
   margin-left: 50px;
   margin-top: 30px;
@@ -322,7 +321,6 @@ span {
 /* Popup window */
 
 .Popup {
-  position: absolute;
   height: 100%;
   mix-blend-mode: multiply;
   backdrop-filter: blur(8px);
@@ -377,10 +375,6 @@ li {
 
 .back2 {
   background-image: url(images/summit2023.jpeg);
-}
-
-.photo {
-  margin-bottom: 10px;
 }
 
 .memorytext {
@@ -441,9 +435,9 @@ li {
     justify-content: center;
     align-items: center;
     width: 70%;
-    height: 70%;
     font-size: 15px;
     background: rgba(255, 255, 255, 0.1);
+    height: 35vh;
   }
 
   .features {
@@ -479,7 +473,6 @@ li {
   }
 
   .mainProgram {
-    height: 600px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -494,10 +487,6 @@ li {
   .footer,
   .mobpartner {
     display: none;
-  }
-
-  .Program {
-    height: 35vh;
   }
 
   .topicon {
@@ -572,6 +561,8 @@ li {
     flex-direction: row;
     justify-content: center;
     gap: 5px;
+    width: 150px;
+    height: 80px;
   }
 
   .title {
@@ -647,10 +638,5 @@ li {
   .blackcolor {
     background-color: #272a31;
     height: 90px;
-  }
-
-  .footerlogo {
-    width: 150px;
-    height: 80px;
   }
 }
