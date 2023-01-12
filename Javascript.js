@@ -90,15 +90,14 @@ const arr = [
 
 const model = document.querySelector('.features');
 
-const Speakerscont = ` <div class="textline">
+const Speakerscont = `<div class="textline">
                         <h1 class=" title  font-family"> Featured Speakers </h1>
                         <div class="guide_bar Color"></div>  
                         </div> 
                        `;
 model.innerHTML += Speakerscont;
 
-
-  const topclass = ` <div class="topclass">
+  const topclass = `<div class="topclass">
                             <div class="speakers${0}">
                                 <img class="speakerImage" src="${arr[0].Images}" alt="">
                                 <div class="speakerInfo">
@@ -120,11 +119,9 @@ model.innerHTML += Speakerscont;
                            </div>
                     </div>      
                           `;
-  model.innerHTML += topclass;
+model.innerHTML += topclass;
 
-
-
-  const middleclass = `   <div class="middleclass">
+  const middleclass = `<div class="middleclass">
                             <div class="speakers${2}">
                                 <img class="speakerImage" src="${arr[2].Images}" alt="">
                                 <div class="speakerInfo">
@@ -145,9 +142,9 @@ model.innerHTML += Speakerscont;
                         </div>
                             </div>
                           `;
-  model.innerHTML += middleclass;
+model.innerHTML += middleclass;
 
-    const bottomclass = `   <div class="bottomclass">
+    const bottomclass = `<div class="bottomclass">
                               <div class="speakers${4}">
                                   <img class="speakerImage" src="${arr[4].Images}" alt="">
                                   <div class="speakerInfo">
@@ -169,10 +166,9 @@ model.innerHTML += Speakerscont;
                           </div>
                           </div>
                             `;
-    model.innerHTML += bottomclass;
+model.innerHTML += bottomclass;
 
-
-const plus = `   <div class="expandmore"><h2 class="plus font-family">
+const plus = `<div class="expandmore"><h2 class="plus font-family">
                 MORE <i class="bi bi-chevron-down Color"></i>
                  </h2>  
                  </div>
