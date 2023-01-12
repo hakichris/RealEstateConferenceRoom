@@ -97,7 +97,7 @@ const Speakerscont = `<div class="textline">
                        `;
 model.innerHTML += Speakerscont;
 
-  const topclass = `<div class="topclass">
+const topclass = `<div class="topclass">
                             <div class="speakers${0}">
                                 <img class="speakerImage" src="${arr[0].Images}" alt="">
                                 <div class="speakerInfo">
@@ -121,7 +121,7 @@ model.innerHTML += Speakerscont;
                           `;
 model.innerHTML += topclass;
 
-  const middleclass = `<div class="middleclass">
+const middleclass = `<div class="middleclass">
                             <div class="speakers${2}">
                                 <img class="speakerImage" src="${arr[2].Images}" alt="">
                                 <div class="speakerInfo">
@@ -144,7 +144,7 @@ model.innerHTML += topclass;
                           `;
 model.innerHTML += middleclass;
 
-    const bottomclass = `<div class="bottomclass">
+const bottomclass = `<div class="bottomclass">
                               <div class="speakers${4}">
                                   <img class="speakerImage" src="${arr[4].Images}" alt="">
                                   <div class="speakerInfo">
