@@ -52,7 +52,7 @@
   font-size: 50px;
   font-weight: bold;
   line-height: 50px;
-  background: linear-gradient( to left,red,rgba(239, 67, 96, 0.863),rgba(255, 0, 0, 0.26), rgb(105, 44, 3),#ec5242,red,rgb(133, 88, 4),red);
+  background: linear-gradient( to left, red, rgba(239, 67, 96, 0.863), rgba(255, 0, 0, 0.26), rgb(105, 44, 3), #ec5242, red, rgb(133, 88, 4), red);
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
